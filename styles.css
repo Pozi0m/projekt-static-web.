@@ -1,3 +1,118 @@
-body { font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; }
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+  color: #222;
+  margin: 0;
+}
 
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #4e7d5c;
+  color: white;
+  padding: 1rem;
+}
 
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-style: italic;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+nav a:link { color: #fff; }
+nav a:visited { color: #ddd; }
+nav a:hover { color: yellow; }
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.intro::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+strong {
+  color: darkgreen;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+figure {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  background: #f0f0f0;
+  border-left: 4px solid #4e7d5c;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1rem;
+  background: #ddd;
+}
+
+pre {
+  background: #eee;
+  padding: 10px;
+}
+
+code {
+  font-family: monospace;
+}
+
+form input:focus, form textarea:focus {
+  outline: 2px solid #4e7d5c;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.klasa {
+  border: 2px solid #000;
+  padding: 1rem;
+}
+
+#temat {
+  background: #fff;
+  padding: 1rem;
+}
