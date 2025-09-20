@@ -3,14 +3,139 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StronaWWW</title>
+  <title>Magia Gór</title>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <head>
-    <h1>Góry</h1>
-    <h3>Polskie Góry</h3>
-  </head>
-  
+<body id="top">
+  <header>
+    <h1>Magia Gór</h1>
+    <h3>Podróż nad chmury</h3>
+    <nav>
+      <ul>
+        <li><a href="#temat">O temacie</a></li>
+        <li><a href="#listy">Listy</a></li>
+        <li><a href="#tabela">Tabela</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="temat">
+     <h2>Dlaczego ludzie kochają góry?</h2>
+      <ul>
+        <li>Piękne widoki</li>
+        <li>Jest to dla niektórych sport, pasja lub hobby</li>
+        <li>Kontak z natura</li>
+      </ul>
+      <section id="Listy">
+      <h3>Lista nieuporzatkowana</h3>
+      <ol>
+        <li>Przygotuj plecak z potrzebnymi rzeczami</li>
+        <li>Sprawdź pogodę (Nigdy nie idz w burzy czy silnym wietrze)</li>
+      </ol>
+      <h3>Lista uporzatkowana</h3>
+      <ol>
+        <li>Wyrusz na szlak</li>
+        <li>Dotarcie na szczyt</li>
+        <li>Zdjęcie pamiątkowe</li>
+        <li>Powrot ze szczytu</li>
+      </ol>
+      </section>
+
+    <hr>
+
+     <section id="tabela">
+      <h2>Najwyższe szczyty w Europie</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nazwa</th>
+            <th>Wysokość</th>
+            <th>Kraj</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mont Blanc</td>
+            <td>4808 m.n.p.m</td>
+            <td>Francja/Wlochy</td>
+          </tr>
+          <tr>
+            <td>Grossglockner</td>
+            <td>3798 m,n.p.m</td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td>Rysy</td>
+            <td>2503m.n.p.m</td>
+            <td>Polska</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="galeria">
+      <h2>Galeria</h2>
+      <figure>
+        <img src="Mont Blanc2.jpg" alt="Góra Mont Blanc">
+        <figcaption>Góra Mont Blanc </figcaption>
+        <img src="Grossglockner2.jpg" alt=" Góra Grossglockner">
+        <figcaption>Zdjęcie drugiej najwiekszej góry w Europie</figcaption> </figcaption>
+        <img src="Rysy2.jpg" alt="Rysy">
+        <figcaption>Szczyt Rysy</figcaption> </figcaption>
+      </figure>
+      <p>Więcej o górach dowiesz sie na 
+        <a href="https://pl.wikipedia.org/wiki/G%C3%B3ry" target="_blank" rel="noopener">Wikipedii</a>.
+      </p>
+    </section>
+
+    <aside>
+      <blockquote>
+        "Góry sprzyjają pokorze, czyli prawdzie o sobie samym. Uczą jej miedzy innymi przez to, że człowiek zmęczony wspinaniem nie ma ani sił, ani chęci, by udawać, by ukrywać swoja prawdziwą twarz".
+        <cite>— ks. Roman Rogowski.</cite>
+      </blockquote>
+    </aside>
+
+    <section id="kontakt">
+      <h2>Kontakt</h2>
+      <address>
+        Jan Duży
+        <br>
+        email:
+        <a href="mailto:janduzy@gmail.com">janduzy@gmail.com</a>
+      </address>
+      <form action="#" method="post">
+        <label>Imię: <input type="text" name="imie"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Wiadomość: <textarea name="wiadomosc"></textarea></label><br>
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <details>
+        <summary>Czy wejście w góry jest bezpieczne?</summary>
+        <p>Oczywiśie, ale tylko przy dobrym przygotowaniu, chęciach i warunkach.</p>
+      </details>
+    </section>
+
+    <section>
+  <h2>Dodatki</h2>
+  <dl>
+    <dt>Czekan:</dt>
+    <dd>-Podstawowe narzędzie wspinacza w trudnym terenie.</dd>
+    <dt>Lawinowe ABC:</dt>
+    <dd>-Zestaw bezpieczeństwa: detektor, sonda i łopata.</dd>
+    <dt>Via ferrata:</dt>
+    <dd>-Trasa górska z linami i stalowymi stopniami, ułatwiająca wspinaczkę.</dd>
+    <p><a href="#top">Wróć na górę</a></p>
+  </dl>
+  </section>
+  <footer>
+    <small>Autor: Radosław Galikowski, 4TE</small>
+  </footer>
 </body>
 </html>
